@@ -22,7 +22,7 @@ byte wrong_data[22] = {240, 255, 15, 5, 1, 0, 173, 215, 30, 15, 95, 9, 253, 255,
 
 void setup() 
 {
-  Serial.begin(9600);             //serial monitor
+  Serial.begin(115200);             //serial monitor
   mySerial.begin(9600);           //XBee
   
   bno.begin(Adafruit_BNO055::OPERATION_MODE_NDOF);                        
