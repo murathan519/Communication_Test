@@ -19,7 +19,7 @@ int time_new=0, time_old=0;
 
 void setup() 
 {
-  Serial.begin(9600);                             //serial monitor
+  Serial.begin(115200);                             //serial monitor
   Serial2.begin(9600,SERIAL_8N1,RXD2,TXD2);       //XBee         
   Wire.begin(23,19);                              //sensor SDA-SCL line
   bme.begin();
