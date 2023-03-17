@@ -11,7 +11,7 @@ int time_new=0, time_old=0;
 
 void setup() 
 {
-  Serial.begin(9600);           //serial monitor
+  Serial.begin(115200);           //serial monitor
   mySerial.begin(9600);         //XBee
 }
 
